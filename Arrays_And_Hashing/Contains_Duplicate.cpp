@@ -2,6 +2,10 @@
 #include <set>
 #include <iostream>
 
+/*
+Given an integer array "nums", return true if any value appears more than once in the array, otherwise return false.
+*/
+
 bool hasDuplicate(std::vector<int>& nums) {
   std::set<int> duplicates; //load vector into set
   for (int i = 0; i < nums.size(); i++) {
